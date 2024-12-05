@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos - Compra e Venda de Materiais Escolares</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .price {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carlos - Materiais Escolares</h1>
+    </header>
+    <div class="container">
+        <h2>Produtos Disponíveis</h2>
+        <ul>
+            <li>
+                <span>Lápis HB</span>
+                <span class="price">R$ 1,50</span>
+            </li>
+            <li>
+                <span>Caderno 10 matérias</span>
+                <span class="price">R$ 25,00</span>
+            </li>
+            <li>
+                <span>Mochila Escolar</span>
+                <span class="price">R$ 120,00</span>
+            </li>
+            <li>
+                <span>Caneta Azul</span>
+                <span class="price">R$ 2,00</span>
+            </li>
+            <li>
+                <span>Apontador</span>
+                <span class="price">R$ 3,50</span>
+            </li>
+            <li>
+                <span>Borracha</span>
+                <span class="price">R$ 1,20</span>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Carlos - Compra e Venda de Materiais Escolares</p>
+    </footer>
+</body>
+</html>
